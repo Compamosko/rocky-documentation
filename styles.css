@@ -1,35 +1,31 @@
-@media (max-width: 768px) {
-    #navbar {
-      width: 100%;
-      text-align: center;
-      padding: 10px;
+@media (max-width: 300px) {
+  
     }
   
    /* Navbar styles */
   #navbar {
+    display: flex;
+    gap:30px;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px; /* Adjust as needed */
-    height: 100vh; /* Make navbar full height of viewport */
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    box-sizing: border-box;
-    overflow-y: auto; /* Add scrollbar if content overflows vertically */
+   top: 0; 
+    background-color: white;
+    width: 100%;
   }
   
   .nav-link {
-    display: block;
-    color: #fff;
+    display: flex;
+    gap:30px;
+    color: black;
+    font-size: larger;
     text-decoration: none;
     margin-bottom: 13px;
   }
-  
-  /* Main content styles */
-  #main-doc {
-    margin-left: 220px; /* Account for navbar width */
-    padding: 2px;
+  body{
+    background-color: white;
+    font-size: 30px;
   }
+  
+  
+  
   
   
