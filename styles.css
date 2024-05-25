@@ -5,7 +5,7 @@
    /* Navbar styles */
   #navbar {
     display: flex;
-    gap:30px;
+    gap:2em;
     position: fixed;
    top: 0; 
     background-color: white;
@@ -14,7 +14,7 @@
   
   .nav-link {
     display: flex;
-    gap:30px;
+    gap: 2em;
     color: black;
     font-size: larger;
     text-decoration: none;
@@ -22,7 +22,7 @@
   }
   body{
     background-color: white;
-    font-size: 30px;
+    font-size: 1em;
   }
   
   
